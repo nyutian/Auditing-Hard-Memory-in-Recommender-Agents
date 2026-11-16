@@ -1,0 +1,7 @@
+# Environment used to run proxy_audit.ipynb (Python 3.12)
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.9
+nbformat
+nbclient
+ipykernel

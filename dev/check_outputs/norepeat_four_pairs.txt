@@ -1,0 +1,168 @@
+==============================================================================================================
+AS IN THE NOTEBOOK (a book can be proposed again)
+==============================================================================================================
+
+AMBIGUITY
+population             all users (N=320)        writing users (N=80)
+visits                                                              
+4           285/320 (89.1%) [85.2, 92.0]  67/80 (83.8%) [74.2, 90.3]
+8           259/320 (80.9%) [76.3, 84.9]  62/80 (77.5%) [67.2, 85.3]
+16          220/320 (68.8%) [63.5, 73.6]  52/80 (65.0%) [54.1, 74.5]
+
+LOGICAL (8 visits): {'ambiguous': ['17/20', '12/20', '19/20', '14/20'], 'language established': 29, 'language plausible': 51, 'country established': 0, 'country plausible': 62, 'country absent': 18, 'C-only differs from L+C': 11}
+
+EXP3_POLICIES (two-rule memory, N=320)
+                                             policy L: C0 success@5 L: C1 success@5 [95% CI] L: C1 first accept L: rejections per 16 visits L: questions L: country still firm L+C: C1 success@5, feasible visits L+C: wasted per infeasible visit L+C: a true rule lost
+0  enforce: firm rules filter, plausible rules rank           100.0        34.7 [33.3, 36.0]               34.7                       0.000         0.00                  100%                              100.0                             0.00                    0%
+1                       soft: every rule only ranks           100.0     100.0 [100.0, 100.0]               95.9                       0.762         0.00                  100%                              100.0                             4.85                    0%
+2                    enforce + transient relaxation           100.0     100.0 [100.0, 100.0]               94.7                       1.241         0.00                  100%                              100.0                             2.18                    0%
+3                                          Update-1           100.0     100.0 [100.0, 100.0]               99.3                       0.178         0.00                    0%                              100.0                             2.18                    0%
+4                                          Update-3           100.0     100.0 [100.0, 100.0]               98.2                       0.416         0.00                    0%                              100.0                             2.18                    0%
+5                                        probe once           100.0     100.0 [100.0, 100.0]               93.8                       1.075         0.00                    0%                              100.0                             2.32                    0%
+6                        ask about each stored rule           100.0     100.0 [100.0, 100.0]              100.0                       0.000         2.00                    0%                              100.0                             0.07                    0%
+7                         ask, oracle (upper bound)           100.0     100.0 [100.0, 100.0]              100.0                       0.000         1.00                    0%                              100.0                             0.00                    0%
+
+UTILITY
+                          comparison on C0 success@5, percentage points
+0                        no memory (level)         +48.7 [+47.0, +50.4]
+1          country rule alone vs no memory         +51.3 [+49.6, +53.0]
+2         language rule alone vs no memory         +51.3 [+49.5, +53.0]
+3  country rule added to the language rule            +0.0 [+0.0, +0.0]
+
+EXP3 (reference memories, 80 users)
+                         memory  serving L: C0 first accept L: C0 success@5    L: C1 first accept       L: C1 success@5 L: C1 rejections/visit L+C: C1 success@5, feasible visits L+C: wasted proposals per infeasible visit
+0                     no memory  enforce               15.5            48.7     13.5 [11.0, 16.3]     39.6 [36.0, 43.4]                   3.61                  31.0 [25.1, 37.0]                                       4.85
+1                     no memory     soft               15.5            48.7     13.5 [11.0, 16.3]     39.6 [36.0, 43.4]                   3.61                  31.0 [25.1, 37.0]                                       4.85
+2              true requirement  enforce              100.0           100.0  100.0 [100.0, 100.0]  100.0 [100.0, 100.0]                   0.00               100.0 [100.0, 100.0]                                       0.00
+3              true requirement     soft              100.0           100.0  100.0 [100.0, 100.0]  100.0 [100.0, 100.0]                   0.00               100.0 [100.0, 100.0]                                       4.85
+4           two rules, hand-set  enforce              100.0           100.0     36.3 [33.9, 39.0]     36.3 [33.8, 38.8]                   0.00               100.0 [100.0, 100.0]                                       0.00
+5           two rules, hand-set     soft              100.0           100.0     96.1 [94.4, 97.7]  100.0 [100.0, 100.0]                   0.04               100.0 [100.0, 100.0]                                       4.85
+6   naive shared-attribute rule  enforce              100.0           100.0     50.4 [44.3, 57.0]     50.4 [44.4, 57.0]                   0.00               100.0 [100.0, 100.0]                                       0.00
+7   naive shared-attribute rule     soft              100.0           100.0     97.1 [95.6, 98.4]  100.0 [100.0, 100.0]                   0.03               100.0 [100.0, 100.0]                                       4.85
+8            logical, hard-only  enforce               46.2            67.4     45.0 [35.5, 54.8]     61.3 [54.2, 68.8]                   2.29                  55.3 [46.2, 64.4]                                       3.45
+9            logical, hard-only     soft               46.2            67.4     45.0 [35.5, 54.8]     61.3 [54.2, 68.8]                   2.29                  55.3 [46.2, 64.4]                                       4.85
+10            logical, two-tier  enforce              100.0           100.0     97.8 [96.6, 98.8]  100.0 [100.0, 100.0]                   0.03               100.0 [100.0, 100.0]                                       3.45
+11            logical, two-tier     soft              100.0           100.0     97.1 [95.6, 98.4]  100.0 [100.0, 100.0]                   0.03               100.0 [100.0, 100.0]                                       4.85
+
+EXP4 entrenchment
+                       memory at visit 4                                            policy country firm at visit 4 resolved at visit 4 at visit 8 at visit 16 memoryless at visit 16 questions per user country still firm at visit 16 ceiling for proposal-only learning
+0  naive shared-attribute rule, 4 visits  enforce: firm rules filter, plausible rules rank                   89.1%               10.9%      10.9%       10.9%                  31.2%               0.00                          89.1%                              71.9%
+1  naive shared-attribute rule, 4 visits                       soft: every rule only ranks                   89.1%               10.9%      10.9%       10.9%                  31.2%               0.00                          89.1%                              71.9%
+2  naive shared-attribute rule, 4 visits                                          Update-1                   89.1%               10.9%      10.9%       10.9%                  31.2%               0.00                          89.1%                              71.9%
+3  naive shared-attribute rule, 4 visits                                        probe once                   89.1%               10.9%      45.9%       71.9%                  31.2%               0.00                          28.1%                              71.9%
+4  naive shared-attribute rule, 4 visits                        ask about each stored rule                   89.1%               10.9%     100.0%      100.0%                  31.2%               1.91                           0.0%                              71.9%
+5             logical two-tier, 4 visits  enforce: firm rules filter, plausible rules rank                    0.0%               10.9%      10.9%       10.9%                  31.2%               0.00                           0.0%                              71.9%
+6             logical two-tier, 4 visits                       soft: every rule only ranks                    0.0%               10.9%      10.9%       10.9%                  31.2%               0.00                           0.0%                              71.9%
+7             logical two-tier, 4 visits                                          Update-1                    0.0%               10.9%      10.9%       10.9%                  31.2%               0.00                           0.0%                              71.9%
+8             logical two-tier, 4 visits                                        probe once                    0.0%               10.9%      45.9%       71.9%                  31.2%               0.00                           0.0%                              71.9%
+9             logical two-tier, 4 visits                        ask about each stored rule                    0.0%               10.9%     100.0%      100.0%                  31.2%               1.91                           0.0%                              71.9%
+
+UPDATE (16 visits, 500 users per pair)
+       cells noise      rule  L+C: false deletion by 16, %  L+C: success to 16, %  L: proxy removed by 16, %  L: language rule lost by 16, %
+0   feasible    5%  Update-1                           2.4                   96.4                      100.0                             5.3
+1   feasible    5%  Update-3                           0.0                   96.3                      100.0                             0.0
+2   feasible    5%     Net-2                           0.0                   96.2                      100.0                             0.0
+3   feasible    5%     Net-3                           0.0                   96.4                      100.0                             0.0
+4   feasible   10%  Update-1                          11.2                   93.0                      100.0                            19.1
+5   feasible   10%  Update-3                           0.0                   92.8                      100.0                             0.1
+6   feasible   10%     Net-2                           0.2                   93.2                      100.0                             0.1
+7   feasible   10%     Net-3                           0.0                   93.2                       99.7                             0.0
+8        all    5%  Update-1                          65.4                   41.3                      100.0                             5.3
+9        all    5%  Update-3                           7.2                   40.9                      100.0                             0.0
+10       all    5%     Net-2                           0.3                   40.6                      100.0                             0.0
+11       all    5%     Net-3                           0.0                   40.8                      100.0                             0.0
+12       all   10%  Update-1                          88.8                   49.8                      100.0                            19.1
+13       all   10%  Update-3                          29.2                   46.8                      100.0                             0.1
+14       all   10%     Net-2                           1.8                   45.9                      100.0                             0.1
+15       all   10%     Net-3                           0.2                   45.4                       99.7                             0.0
+
+INVENTORY
+             pair  cells joint works per feasible cell in C0 (median, max)  cells with exactly one joint work in C0  target-language works per cell, both catalogs (median)
+0   Spanish/Spain     22                                           (2, 14)                                        8                                                       2
+1   French/France     23                                            (1, 7)                                       12                                                       2
+2  Russian/Russia      8                                            (1, 8)                                        4                                                       2
+3  German/Germany     17                                            (1, 4)                                       12                                                       1
+==============================================================================================================
+NO REPEAT (a book proposed once to a user is never proposed to that user again)
+==============================================================================================================
+
+AMBIGUITY
+population             all users (N=320)        writing users (N=80)
+visits                                                              
+4           279/320 (87.2%) [83.1, 90.4]  63/80 (78.8%) [68.6, 86.3]
+8           242/320 (75.6%) [70.6, 80.0]  54/80 (67.5%) [56.6, 76.8]
+16          170/320 (53.1%) [47.7, 58.5]  35/80 (43.8%) [33.4, 54.7]
+
+LOGICAL (8 visits): {'ambiguous': ['14/20', '11/20', '15/20', '14/20'], 'language established': 36, 'language plausible': 44, 'country established': 0, 'country plausible': 54, 'country absent': 26, 'C-only differs from L+C': 11}
+
+EXP3_POLICIES (two-rule memory, N=320)
+                                             policy L: C0 success@5 L: C1 success@5 [95% CI] L: C1 first accept L: rejections per 16 visits L: questions L: country still firm L+C: C1 success@5, feasible visits L+C: wasted per infeasible visit L+C: a true rule lost
+0  enforce: firm rules filter, plausible rules rank            94.6        21.2 [20.2, 22.2]               21.2                       0.000         0.00                  100%                              100.0                             0.00                    0%
+1                       soft: every rule only ranks           100.0     100.0 [100.0, 100.0]               95.6                       0.606         0.00                  100%                              100.0                             4.38                    0%
+2                    enforce + transient relaxation           100.0     100.0 [100.0, 100.0]               94.7                       0.884         0.00                  100%                              100.0                             1.25                    0%
+3                                          Update-1           100.0     100.0 [100.0, 100.0]               99.1                       0.166         0.00                    0%                              100.0                             1.25                    0%
+4                                          Update-3           100.0     100.0 [100.0, 100.0]               97.7                       0.397         0.00                    0%                              100.0                             1.25                    0%
+5                                        probe once           100.0     100.0 [100.0, 100.0]               92.2                       1.022         0.00                    0%                              100.0                             1.36                    0%
+6                        ask about each stored rule           100.0     100.0 [100.0, 100.0]              100.0                       0.000         2.00                    0%                              100.0                             0.06                    0%
+7                         ask, oracle (upper bound)           100.0     100.0 [100.0, 100.0]              100.0                       0.000         1.00                    0%                              100.0                             0.00                    0%
+
+UTILITY
+                          comparison on C0 success@5, percentage points
+0                        no memory (level)         +41.1 [+39.7, +42.5]
+1          country rule alone vs no memory         +29.4 [+27.9, +30.8]
+2         language rule alone vs no memory         +31.9 [+30.4, +33.3]
+3  country rule added to the language rule            -2.5 [-2.9, -2.1]
+
+EXP3 (reference memories, 80 users)
+                         memory  serving L: C0 first accept L: C0 success@5    L: C1 first accept       L: C1 success@5 L: C1 rejections/visit L+C: C1 success@5, feasible visits L+C: wasted proposals per infeasible visit
+0                     no memory  enforce               15.0            49.9     19.7 [17.4, 21.9]     48.5 [45.7, 51.5]                   3.26                  33.4 [28.3, 38.6]                                       4.31
+1                     no memory     soft               15.0            49.9     19.7 [17.4, 21.9]     48.5 [45.7, 51.5]                   3.26                  33.4 [28.3, 38.6]                                       4.31
+2              true requirement  enforce              100.0           100.0  100.0 [100.0, 100.0]  100.0 [100.0, 100.0]                   0.00               100.0 [100.0, 100.0]                                       0.00
+3              true requirement     soft              100.0           100.0  100.0 [100.0, 100.0]  100.0 [100.0, 100.0]                   0.00               100.0 [100.0, 100.0]                                       4.38
+4           two rules, hand-set  enforce               95.9            95.9     21.7 [19.9, 23.4]     21.7 [20.0, 23.4]                   0.00               100.0 [100.0, 100.0]                                       0.00
+5           two rules, hand-set     soft              100.0           100.0     95.3 [94.1, 96.4]  100.0 [100.0, 100.0]                   0.05               100.0 [100.0, 100.0]                                       4.38
+6   naive shared-attribute rule  enforce               96.8            96.8     43.4 [35.7, 51.7]     43.4 [35.8, 51.7]                   0.00               100.0 [100.0, 100.0]                                       0.00
+7   naive shared-attribute rule     soft              100.0           100.0     96.5 [95.3, 97.6]  100.0 [100.0, 100.0]                   0.04               100.0 [100.0, 100.0]                                       4.38
+8            logical, hard-only  enforce               51.6            71.3     54.4 [45.2, 63.6]     70.8 [64.9, 76.9]                   1.84                  61.0 [52.2, 70.2]                                       2.45
+9            logical, hard-only     soft               51.6            71.3     54.4 [45.2, 63.6]     70.8 [64.9, 76.9]                   1.84                  61.0 [52.2, 70.2]                                       4.33
+10            logical, two-tier  enforce              100.0           100.0     96.9 [95.7, 98.0]  100.0 [100.0, 100.0]                   0.03               100.0 [100.0, 100.0]                                       2.59
+11            logical, two-tier     soft              100.0           100.0     96.5 [95.3, 97.6]  100.0 [100.0, 100.0]                   0.04               100.0 [100.0, 100.0]                                       4.38
+
+EXP4 entrenchment
+                       memory at visit 4                                            policy country firm at visit 4 resolved at visit 4 at visit 8 at visit 16 memoryless at visit 16 questions per user country still firm at visit 16 ceiling for proposal-only learning
+0  naive shared-attribute rule, 4 visits  enforce: firm rules filter, plausible rules rank                   87.2%               12.8%      12.8%       12.8%                  46.9%               0.00                          87.2%                              72.2%
+1  naive shared-attribute rule, 4 visits                       soft: every rule only ranks                   87.2%               12.8%      18.4%       37.2%                  46.9%               0.00                          87.2%                              72.2%
+2  naive shared-attribute rule, 4 visits                                          Update-1                   87.2%               12.8%      18.1%       36.9%                  46.9%               0.00                          63.1%                              72.2%
+3  naive shared-attribute rule, 4 visits                                        probe once                   87.2%               12.8%      47.2%       72.2%                  46.9%               0.00                          27.8%                              72.2%
+4  naive shared-attribute rule, 4 visits                        ask about each stored rule                   87.2%               12.8%     100.0%      100.0%                  46.9%               1.89                           0.0%                              72.2%
+5             logical two-tier, 4 visits  enforce: firm rules filter, plausible rules rank                    0.0%               12.8%      18.4%       37.2%                  46.9%               0.00                           0.0%                              72.2%
+6             logical two-tier, 4 visits                       soft: every rule only ranks                    0.0%               12.8%      18.4%       37.2%                  46.9%               0.00                           0.0%                              72.2%
+7             logical two-tier, 4 visits                                          Update-1                    0.0%               12.8%      18.4%       37.2%                  46.9%               0.00                           0.0%                              72.2%
+8             logical two-tier, 4 visits                                        probe once                    0.0%               12.8%      47.2%       72.2%                  46.9%               0.00                           0.0%                              72.2%
+9             logical two-tier, 4 visits                        ask about each stored rule                    0.0%               12.8%     100.0%      100.0%                  46.9%               1.89                           0.0%                              72.2%
+
+UPDATE (16 visits, 500 users per pair)
+       cells noise      rule  L+C: false deletion by 16, %  L+C: success to 16, %  L: proxy removed by 16, %  L: language rule lost by 16, %
+0   feasible    5%  Update-1                          18.4                   36.7                      100.0                            51.9
+1   feasible    5%  Update-3                           0.1                   35.8                      100.0                             3.4
+2   feasible    5%     Net-2                           0.4                   35.9                       99.8                             0.2
+3   feasible    5%     Net-3                           0.0                   35.8                       99.5                             0.1
+4   feasible   10%  Update-1                          29.1                   38.2                      100.0                            75.1
+5   feasible   10%  Update-3                           0.5                   35.2                       99.9                            16.1
+6   feasible   10%     Net-2                           1.4                   35.7                       99.3                             0.8
+7   feasible   10%     Net-3                           0.1                   35.4                       97.6                             0.1
+8        all    5%  Update-1                          53.0                   30.1                      100.0                            51.9
+9        all    5%  Update-3                           3.6                   27.7                      100.0                             3.4
+10       all    5%     Net-2                           0.4                   27.4                       99.8                             0.2
+11       all    5%     Net-3                           0.0                   27.5                       99.5                             0.1
+12       all   10%  Update-1                          78.5                   40.4                      100.0                            75.1
+13       all   10%  Update-3                          16.0                   32.1                       99.9                            16.1
+14       all   10%     Net-2                           1.5                   31.3                       99.3                             0.8
+15       all   10%     Net-3                           0.1                   30.6                       97.6                             0.1
+
+INVENTORY
+             pair  cells joint works per feasible cell in C0 (median, max)  cells with exactly one joint work in C0  target-language works per cell, both catalogs (median)
+0   Spanish/Spain     22                                           (2, 14)                                        8                                                       2
+1   French/France     23                                            (1, 7)                                       12                                                       2
+2  Russian/Russia      8                                            (1, 8)                                        4                                                       2
+3  German/Germany     17                                            (1, 4)                                       12                                                       1

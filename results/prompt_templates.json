@@ -1,0 +1,58 @@
+{
+ "base": "You maintain the long-term memory of a book recommender about one reader.\n\nOn each visit the reader states a request (a genre and a publication period). The recommender proposes books one at a time, and the reader accepts or rejects each book without giving a reason. A reader may also have standing requirements: conditions that a book must meet on every visit, whatever the request. Standing requirements are never stated.\n\nInteraction history of this reader:\n{history}\n\nDecide what, if anything, to store in memory about this reader's standing requirements.",
+ "use_hard": "How the memory is used: each stored rule is enforced as a filter on every future visit. Books that do not match a stored rule are never proposed to this reader.",
+ "use_tier": "How the memory is used: each stored rule has a status.\n- \"established\": the rule is enforced as a filter on every future visit. Books that do not match it are never proposed to this reader.\n- \"plausible\": the rule is used only to order books. Matching books are proposed first, and no book is excluded.",
+ "evidence_hard": "Standard of evidence: the reader accepts a book exactly when it meets the visit's request and every standing requirement. Store a rule only if it belongs to every set of standing requirements that is consistent with all the accepted and rejected books above. Never store a rule that an accepted book violates.",
+ "evidence_tier": "Standard of evidence: the reader accepts a book exactly when it meets the visit's request and every standing requirement. Mark a rule \"established\" only if it belongs to every set of standing requirements that is consistent with all the accepted and rejected books above. Mark it \"plausible\" if it belongs to some but not all of those sets. Never store a rule that an accepted book violates.",
+ "output_hard": "A rule has a field ({fields}) and a value.{note}\nReturn only JSON in this form. Use an empty list if nothing should be stored.\n{{\"rules\": [{{\"field\": \"<field>\", \"value\": \"<value>\"}}]}}",
+ "output_tier": "A rule has a field ({fields}), a value, and a status.{note}\nReturn only JSON in this form. Use an empty list if nothing should be stored.\n{{\"rules\": [{{\"field\": \"<field>\", \"value\": \"<value>\", \"status\": \"<established or plausible>\"}}]}}",
+ "arms": {
+  "A": {
+   "label": "hard-only",
+   "tier": false,
+   "evidence": false,
+   "fields": [
+    "language",
+    "country"
+   ]
+  },
+  "B": {
+   "label": "hard-only + evidence rule",
+   "tier": false,
+   "evidence": true,
+   "fields": [
+    "language",
+    "country"
+   ]
+  },
+  "C": {
+   "label": "two-tier",
+   "tier": true,
+   "evidence": false,
+   "fields": [
+    "language",
+    "country"
+   ]
+  },
+  "D": {
+   "label": "two-tier + evidence rule",
+   "tier": true,
+   "evidence": true,
+   "fields": [
+    "language",
+    "country"
+   ]
+  },
+  "E": {
+   "label": "two-tier + evidence rule, 4 fields",
+   "tier": true,
+   "evidence": true,
+   "fields": [
+    "language",
+    "country",
+    "genre",
+    "period"
+   ]
+  }
+ }
+}

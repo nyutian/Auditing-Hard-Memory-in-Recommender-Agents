@@ -1,0 +1,136 @@
+{
+ "setup": {
+  "seed": 20261115,
+  "catalog_sha256": "19e9fa3a4db03de8f8bb8cdd8f7b231346a44f21cefca18947b7b10485d7093f",
+  "pairs": [
+   [
+    "Spanish",
+    "Spain",
+    90
+   ],
+   [
+    "French",
+    "France",
+    80
+   ],
+   [
+    "Russian",
+    "Russia",
+    50
+   ],
+   [
+    "German",
+    "Germany",
+    40
+   ]
+  ],
+  "feasible_cells": {
+   "Spanish/Spain": 22,
+   "French/France": 23,
+   "Russian/Russia": 8,
+   "German/Germany": 17
+  },
+  "writing_users": 80,
+  "serving_users": 320,
+  "update_users_per_cell": 2000
+ },
+ "ambiguity_writing_users": {
+  "4": 67,
+  "8": 62,
+  "16": 52
+ },
+ "logical_reference_8_visits": {
+  "language_established": 29,
+  "country_established": 0
+ },
+ "model_arms_complete": [],
+ "serving_two_rule_memory_shifted_catalog": {
+  "hard_filter_success_pct": 34.7,
+  "soft_rank_success_pct": 100.0,
+  "soft_rank_first_accept_pct": 95.9
+ },
+ "utility_on_learning_catalog_points": {
+  "no_memory_level": 48.7,
+  "country_alone": 51.3,
+  "language_alone": 51.3,
+  "country_given_language": 0.0
+ },
+ "entrenchment_resolved_at_visit_16_pct": {
+  "memoryless": 31.2,
+  "filter_or_soft_rank": 10.9,
+  "probe_once": 71.9,
+  "ask": 100.0
+ },
+ "update_false_deletion_pct": {
+  "feasible cells, 5%, by visit 16": {
+   "Update-1": 2.4,
+   "Update-3": 0.0,
+   "Net-2": 0.0,
+   "Net-3": 0.0
+  },
+  "feasible cells, 5%, by visit 64": {
+   "Update-1": 9.5,
+   "Update-3": 0.1,
+   "Net-2": 0.15,
+   "Net-3": 0.0
+  },
+  "feasible cells, 10%, by visit 16": {
+   "Update-1": 11.15,
+   "Update-3": 0.0,
+   "Net-2": 0.25,
+   "Net-3": 0.0
+  },
+  "feasible cells, 10%, by visit 64": {
+   "Update-1": 33.05,
+   "Update-3": 1.4,
+   "Net-2": 0.75,
+   "Net-3": 0.05
+  },
+  "all cells, 5%, by visit 16": {
+   "Update-1": 65.4,
+   "Update-3": 7.25,
+   "Net-2": 0.3,
+   "Net-3": 0.0
+  },
+  "all cells, 5%, by visit 64": {
+   "Update-1": 98.5,
+   "Update-3": 72.7,
+   "Net-2": 0.4,
+   "Net-3": 0.0
+  },
+  "all cells, 10%, by visit 16": {
+   "Update-1": 88.75,
+   "Update-3": 29.25,
+   "Net-2": 1.75,
+   "Net-3": 0.2
+  },
+  "all cells, 10%, by visit 64": {
+   "Update-1": 100.0,
+   "Update-3": 98.35,
+   "Net-2": 3.7,
+   "Net-3": 0.3
+  }
+ },
+ "update_mean_visits_to_proxy_removal_5pct": {
+  "Update-1": 1.6,
+  "Update-2": 3.2,
+  "Update-3": 4.77,
+  "Update-4": 6.42,
+  "Update-5": 8.0,
+  "Net-2": 3.37,
+  "Net-3": 5.01,
+  "Demote-2": 3.15,
+  "Demote-3": 4.72
+ },
+ "preference_change_visits_to_deletion_0pct": {
+  "Update-1": 1.5,
+  "Update-2": 3.1,
+  "Update-3": 4.6,
+  "Update-4": 6.2,
+  "Update-5": 7.7,
+  "Net-2": 6.2,
+  "Net-3": 9.3,
+  "Demote-2": 3.1,
+  "Demote-3": 4.6
+ }
+}

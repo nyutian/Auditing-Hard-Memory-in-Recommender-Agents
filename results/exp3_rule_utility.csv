@@ -1,0 +1,5 @@
+comparison on C0,"success@5, percentage points"
+no memory (level),"+48.7 [+47.0, +50.4]"
+country rule alone vs no memory,"+51.3 [+49.6, +53.0]"
+language rule alone vs no memory,"+51.3 [+49.5, +53.0]"
+country rule added to the language rule,"+0.0 [+0.0, +0.0]"

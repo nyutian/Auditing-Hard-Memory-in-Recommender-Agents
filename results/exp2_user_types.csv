@@ -1,0 +1,13 @@
+writer,rule,L: false commitment,L: miss,L: lost,LC: miss,LC: lost,C: false commitment,C: miss,C: lost,"firm-tier precision, all language-only","firm-tier precision, L : L+C = 1:1","firm-tier precision, three types equal"
+reference: naive shared-attribute rule,country,62/80 (77.5%),,,0/80 (0.0%),0/80 (0.0%),,0/80 (0.0%),0/80 (0.0%),0.00,0.56,0.72
+reference: naive shared-attribute rule,language,,0/80 (0.0%),0/80 (0.0%),0/80 (0.0%),0/80 (0.0%),69/80 (86.2%),,,1.00,1.00,0.70
+"reference: logical, hard-only",country,0/80 (0.0%),,,62/80 (77.5%),62/80 (77.5%),,51/80 (63.8%),51/80 (63.8%),n/a (never firm),1.00,1.00
+"reference: logical, hard-only",language,,51/80 (63.8%),51/80 (63.8%),69/80 (86.2%),69/80 (86.2%),0/80 (0.0%),,,1.00,1.00,1.00
+"reference: logical, two-tier",country,0/80 (0.0%),,,62/80 (77.5%),0/80 (0.0%),,51/80 (63.8%),0/80 (0.0%),n/a (never firm),1.00,1.00
+"reference: logical, two-tier",language,,51/80 (63.8%),0/80 (0.0%),69/80 (86.2%),0/80 (0.0%),0/80 (0.0%),,,1.00,1.00,1.00
+GPT-OSS-120B | A: hard-only,not run,,,,,,,,,,,
+GPT-OSS-120B | B: hard-only + evidence rule,not run,,,,,,,,,,,
+"GPT-OSS-120B | E: two-tier + evidence rule, 4 fields",not run,,,,,,,,,,,
+GLM-5.3-Flash | A: hard-only,not run,,,,,,,,,,,
+GLM-5.3-Flash | B: hard-only + evidence rule,not run,,,,,,,,,,,
+"GLM-5.3-Flash | E: two-tier + evidence rule, 4 fields",not run,,,,,,,,,,,

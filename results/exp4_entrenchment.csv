@@ -1,0 +1,15 @@
+memory at visit 4,policy,users,country firm at visit 4,resolved at visit 4,at visit 8,at visit 16,memoryless at visit 16,questions per user,country still firm at visit 16,ceiling for proposal-only learning
+"naive shared-attribute rule, 4 visits","enforce: firm rules filter, plausible rules rank",320,89.1%,10.9%,10.9%,10.9%,31.2%,0.00,89.1%,71.9%
+"naive shared-attribute rule, 4 visits",soft: every rule only ranks,320,89.1%,10.9%,10.9%,10.9%,31.2%,0.00,89.1%,71.9%
+"naive shared-attribute rule, 4 visits",Update-1,320,89.1%,10.9%,10.9%,10.9%,31.2%,0.00,89.1%,71.9%
+"naive shared-attribute rule, 4 visits",probe once,320,89.1%,10.9%,45.9%,71.9%,31.2%,0.00,28.1%,71.9%
+"naive shared-attribute rule, 4 visits",ask about each stored rule,320,89.1%,10.9%,100.0%,100.0%,31.2%,1.91,0.0%,71.9%
+"logical two-tier, 4 visits","enforce: firm rules filter, plausible rules rank",320,0.0%,10.9%,10.9%,10.9%,31.2%,0.00,0.0%,71.9%
+"logical two-tier, 4 visits",soft: every rule only ranks,320,0.0%,10.9%,10.9%,10.9%,31.2%,0.00,0.0%,71.9%
+"logical two-tier, 4 visits",Update-1,320,0.0%,10.9%,10.9%,10.9%,31.2%,0.00,0.0%,71.9%
+"logical two-tier, 4 visits",probe once,320,0.0%,10.9%,45.9%,71.9%,31.2%,0.00,0.0%,71.9%
+"logical two-tier, 4 visits",ask about each stored rule,320,0.0%,10.9%,100.0%,100.0%,31.2%,1.91,0.0%,71.9%
+"GPT-OSS-120B | A, 4 visits",not run,,,,,,,,,
+"GPT-OSS-120B | E, 4 visits",not run,,,,,,,,,
+"GLM-5.3-Flash | A, 4 visits",not run,,,,,,,,,
+"GLM-5.3-Flash | E, 4 visits",not run,,,,,,,,,

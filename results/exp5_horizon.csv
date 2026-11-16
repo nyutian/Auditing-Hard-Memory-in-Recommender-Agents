@@ -1,0 +1,17 @@
+cells,noise,rule,false deletion by 16,by 64,by 256
+all,10%,Net-2,1.8%,3.7%,6.4%
+all,10%,Net-3,0.2%,0.3%,0.3%
+all,10%,Update-1,88.8%,100.0%,100.0%
+all,10%,Update-3,29.2%,98.4%,100.0%
+all,5%,Net-2,0.3%,0.4%,0.5%
+all,5%,Net-3,0.0%,0.0%,0.0%
+all,5%,Update-1,65.4%,98.5%,100.0%
+all,5%,Update-3,7.2%,72.7%,100.0%
+feasible,10%,Net-2,0.2%,0.8%,1.2%
+feasible,10%,Net-3,0.0%,0.1%,0.1%
+feasible,10%,Update-1,11.2%,33.1%,66.5%
+feasible,10%,Update-3,0.0%,1.4%,30.3%
+feasible,5%,Net-2,0.0%,0.1%,0.2%
+feasible,5%,Net-3,0.0%,0.0%,0.0%
+feasible,5%,Update-1,2.4%,9.5%,34.0%
+feasible,5%,Update-3,0.0%,0.1%,1.7%

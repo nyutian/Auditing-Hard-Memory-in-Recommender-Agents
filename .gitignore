@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# The catalog is downloaded and hash-checked by the notebook on first run
+data/

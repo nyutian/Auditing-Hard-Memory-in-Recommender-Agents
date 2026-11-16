@@ -1,0 +1,7 @@
+GPT-OSS-120B: 763 calls | prompt characters: mean 5852, median 5781, min 1928, max 11627, total 4,465,409
+GLM-5.3-Flash: 763 calls | prompt characters: mean 5852, median 5781, min 1928, max 11627, total 4,465,409
+input tokens per model, all calls: 1.12M to 1.40M (4.0 and 3.2 characters per token)
+input tokens per call: 1463 to 1829
+  arm D, 4 visits: mean 3877 characters
+  arm D, 8 visits: mean 6111 characters
+  arm D, 16 visits: mean 10547 characters

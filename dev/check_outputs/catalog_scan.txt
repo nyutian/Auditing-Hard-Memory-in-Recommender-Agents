@@ -1,0 +1,108 @@
+works: 20000 | with language and country: 14230
+
+1. language/country pairs with at least 36 works on both sides (joint, other-country):
+language    country                      joint other total  natural share  max target size
+English     United States                 8274  3693 11967         69.1%             4103
+English     United Kingdom                2667  9300 11967         22.3%             2963
+English     Australia                      392 11575 11967          3.3%              435
+English     Canada                         264 11703 11967          2.2%              293
+English     England                        114 11853 11967          1.0%              126
+Spanish     Spain                           86   143   229         37.6%               95
+French      France                         420    77   497         84.5%               85
+English     Scotland                        69 11898 11967          0.6%               76
+English     Nigeria                         64 11903 11967          0.5%               71
+English     South Africa                    51 11916 11967          0.4%               56
+English     Ghana                           50 11917 11967          0.4%               55
+Spanish     Mexico                          49   180   229         21.4%               54
+Russian     Russia                          83    47   130         63.8%               52
+English     India                           44 11923 11967          0.4%               48
+French      Belgium                         41   456   497          8.2%               45
+Russian     Soviet Union                    40    90   130         30.8%               44
+German      Germany                        190    37   227         83.7%               41
+pairs: 17 | distinct languages: 5
+
+2. natural concentration, anchor values with at least 50 works (all 20,000 works; a work counts
+   for a pair only if both fields are filled)
+anchor fieldother field  anchors  top share >= 80%  >= 90%
+languages   countries         13           9 (69%)       5
+languages   genres            17           0 (0%)       0
+languages   period            17           0 (0%)       0
+countries   languages         21          18 (86%)      17
+countries   genres            21           0 (0%)       0
+countries   period            21           0 (0%)       0
+genres      languages         17           8 (47%)       5
+genres      countries         17           0 (0%)       0
+genres      period            17           0 (0%)       0
+period      languages          4           3 (75%)       0
+period      countries          4           0 (0%)       0
+period      genres             4           0 (0%)       0
+
+   languages -> countries, most concentrated:
+      Japanese -> Japan: 267/269 = 99.3%
+      Italian -> Italy: 121/124 = 97.6%
+      American English -> United States: 387/403 = 96.0%
+      British English -> United Kingdom: 106/111 = 95.5%
+      Polish -> Poland: 96/105 = 91.4%
+      Swedish -> Sweden: 92/105 = 87.6%
+
+   languages -> period, most concentrated:
+      Japanese -> 2000 onward: 202/294 = 68.7%
+      Hebrew -> 2000 onward: 38/62 = 61.3%
+      Assamese -> before 1950: 29/50 = 58.0%
+      Spanish -> 2000 onward: 141/277 = 50.9%
+      American English -> 2000 onward: 274/568 = 48.2%
+      Dutch -> 2000 onward: 35/73 = 47.9%
+
+   countries -> languages, most concentrated:
+      Poland -> Polish: 96/96 = 100.0%
+      Australia -> English: 392/392 = 100.0%
+      United States -> English: 8274/8300 = 99.7%
+      United Kingdom -> English: 2667/2686 = 99.3%
+      England -> English: 114/115 = 99.1%
+      France -> French: 420/424 = 99.1%
+
+   countries -> period, most concentrated:
+      Nigeria -> 2000 onward: 53/71 = 74.6%
+      Ghana -> 2000 onward: 38/51 = 74.5%
+      Japan -> 2000 onward: 188/276 = 68.1%
+      India -> 2000 onward: 63/104 = 60.6%
+      Australia -> 2000 onward: 228/392 = 58.2%
+      Canada -> 2000 onward: 158/278 = 56.8%
+
+   genres -> languages, most concentrated:
+      Fantasy -> English: 3575/3828 = 93.4%
+      Horror -> English: 1138/1225 = 92.9%
+      Science Fiction -> English: 4339/4738 = 91.6%
+      Young Adult -> English: 520/571 = 91.1%
+      Thriller -> English: 923/1015 = 90.9%
+      Mystery -> English: 1020/1256 = 81.2%
+
+   genres -> period, most concentrated:
+      Young Adult -> 2000 onward: 404/571 = 70.8%
+      Romance -> 2000 onward: 303/509 = 59.5%
+      Fantasy -> 2000 onward: 2130/3828 = 55.6%
+      Nonfiction -> 2000 onward: 1359/2521 = 53.9%
+      Thriller -> 2000 onward: 535/1015 = 52.7%
+      Horror -> 2000 onward: 616/1225 = 50.3%
+   works whose languages value has a countries value at >= 80%: 1888/14230 = 13.3%  (9 anchor values)
+   works whose languages value has a countries value at >= 90%: 1010/14230 = 7.1%  (5 anchor values)
+   works whose countries value has a languages value at >= 80%: 13259/14230 = 93.2%  (18 anchor values)
+   works whose countries value has a languages value at >= 90%: 13162/14230 = 92.5%  (17 anchor values)
+   works whose genres value has a period value at >= 80%: 0/20000 = 0.0%  (0 anchor values)
+   works whose genres value has a period value at >= 90%: 0/20000 = 0.0%  (0 anchor values)
+   works whose languages value has a period value at >= 80%: 0/20000 = 0.0%  (0 anchor values)
+   works whose languages value has a period value at >= 90%: 0/20000 = 0.0%  (0 anchor values)
+
+3. unmodified catalog: probability that n uniformly drawn works in the language all come from the country
+   French/France: 420/497 = 84.5% | n=3: 60%  n=5: 43%  n=9: 22%
+   German/Germany: 190/227 = 83.7% | n=3: 58%  n=5: 41%  n=9: 20%
+   Russian/Russia: 83/130 = 63.8% | n=3: 26%  n=5: 10%  n=9: 1%
+   Spanish/Spain: 86/229 = 37.6% | n=3: 5%  n=5: 1%  n=9: 0%
+   English/United States: 8274/11967 = 69.1% | n=3: 33%  n=5: 16%  n=9: 4%
+   English/United Kingdom: 2667/11967 = 22.3% | n=3: 1%  n=5: 0%  n=9: 0%
+   Italian/Italy: 121/124 = 97.6% | n=3: 93%  n=5: 88%  n=9: 80%
+   Japanese/Japan: 267/269 = 99.3% | n=3: 98%  n=5: 96%  n=9: 93%
+   Polish/Poland: 96/105 = 91.4% | n=3: 76%  n=5: 63%  n=9: 43%
+   Swedish/Sweden: 92/105 = 87.6% | n=3: 67%  n=5: 51%  n=9: 29%
+   Portuguese/Brazil: 38/56 = 67.9% | n=3: 30%  n=5: 13%  n=9: 2%
+   Chinese/People's Republic of China: 15/27 = 55.6% | n=3: 16%  n=5: 4%  n=9: 0%

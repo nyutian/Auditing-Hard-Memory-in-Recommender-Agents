@@ -1,0 +1,14 @@
+writer,country firm | ambiguous,country plausible | ambiguous,country kept | identifiable,language firm,language plausible,language absent,country not firm and language kept | ambiguous,matches logical label,histories with other rules
+reference: naive shared-attribute rule,"62/62 (100.0%) [94.2, 100.0]",0/62 (0.0%),0/18 (0.0%),80/80 (100.0%),0/80 (0.0%),0/80 (0.0%),"0/62 (0.0%) [0.0, 5.8]",47/160 (29.4%),0
+"reference: logical, hard-only","0/62 (0.0%) [0.0, 5.8]",0/62 (0.0%),0/18 (0.0%),29/80 (36.2%),0/80 (0.0%),51/80 (63.8%),"11/62 (17.7%) [10.2, 29.0]",160/160 (100.0%),0
+"reference: logical, two-tier","0/62 (0.0%) [0.0, 5.8]",62/62 (100.0%),0/18 (0.0%),29/80 (36.2%),51/80 (63.8%),0/80 (0.0%),"62/62 (100.0%) [94.2, 100.0]",160/160 (100.0%),0
+GPT-OSS-120B | A: hard-only,not run,,,,,,,,
+GPT-OSS-120B | B: hard-only + evidence rule,not run,,,,,,,,
+GPT-OSS-120B | C: two-tier,not run,,,,,,,,
+GPT-OSS-120B | D: two-tier + evidence rule,not run,,,,,,,,
+"GPT-OSS-120B | E: two-tier + evidence rule, 4 fields",not run,,,,,,,,
+GLM-5.3-Flash | A: hard-only,not run,,,,,,,,
+GLM-5.3-Flash | B: hard-only + evidence rule,not run,,,,,,,,
+GLM-5.3-Flash | C: two-tier,not run,,,,,,,,
+GLM-5.3-Flash | D: two-tier + evidence rule,not run,,,,,,,,
+"GLM-5.3-Flash | E: two-tier + evidence rule, 4 fields",not run,,,,,,,,

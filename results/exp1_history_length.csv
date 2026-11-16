@@ -1,0 +1,4 @@
+visits,ambiguous histories,naive rule,GPT-OSS-120B arm A,GLM-5.3-Flash arm A
+4,67/80,67/67 (100.0%),not run,not run
+8,62/80,62/62 (100.0%),not run,not run
+16,52/80,52/52 (100.0%),not run,not run

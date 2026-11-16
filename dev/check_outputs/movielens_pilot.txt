@@ -1,0 +1,29 @@
+ratings 100836 | users 610 | films 9742 | with country 9646 | with language 9552
+liked (rating >= 4.0): 48580 = 48.2% of ratings
+  liked ratings by country (share of liked ratings with known country): United States 88.2%, United Kingdom 16.3%, France 6.1%, Germany 5.2%, Australia 2.9%, Italy 2.5%
+  liked ratings by language (share of liked ratings with known language): English 93.8%, French 3.7%, Spanish 2.5%, Japanese 2.2%, German 2.2%, Italian 1.7%
+
+A. Any field, all users
+shared country                     n=5  unanimous 465/603 = 77.1% (United States 465) | with >=20 later likes: 305; refuted 260/305 = 85.2%; later likes a filter would block: mean 8.3%, median 6.5%; first refuting like: median #11 | on later days only (>=5 likes): refuted 110/135 | hours from 1st to n-th like: median 0.03
+shared country                     n=8  unanimous 390/588 = 66.3% (United States 390) | with >=20 later likes: 238; refuted 209/238 = 87.8%; later likes a filter would block: mean 8.1%, median 6.4%; first refuting like: median #10 | on later days only (>=5 likes): refuted 88/110 | hours from 1st to n-th like: median 0.05
+shared country                     n=12 unanimous 312/563 = 55.4% (United States 312) | with >=20 later likes: 177; refuted 155/177 = 87.6%; later likes a filter would block: mean 7.7%, median 6.0%; first refuting like: median #11 | on later days only (>=5 likes): refuted 68/85 | hours from 1st to n-th like: median 0.09
+shared language                    n=5  unanimous 532/603 = 88.2% (English 532) | with >=20 later likes: 355; refuted 243/355 = 68.5%; later likes a filter would block: mean 4.7%, median 2.6%; first refuting like: median #13 | on later days only (>=5 likes): refuted 111/161 | hours from 1st to n-th like: median 0.03
+shared language                    n=8  unanimous 464/588 = 78.9% (English 464) | with >=20 later likes: 289; refuted 198/289 = 68.5%; later likes a filter would block: mean 4.4%, median 2.5%; first refuting like: median #16 | on later days only (>=5 likes): refuted 90/134 | hours from 1st to n-th like: median 0.06
+shared language                    n=12 unanimous 393/563 = 69.8% (English 393) | with >=20 later likes: 232; refuted 156/232 = 67.2%; later likes a filter would block: mean 3.8%, median 2.2%; first refuting like: median #18 | on later days only (>=5 likes): refuted 74/112 | hours from 1st to n-th like: median 0.10
+shared decade                      n=5  unanimous 145/603 = 24.0% (1990s 136, 2000s 5) | with >=20 later likes: 72; refuted 62/72 = 86.1%; later likes a filter would block: mean 27.6%, median 8.0%; first refuting like: median #6 | on later days only (>=5 likes): refuted 17/21 | hours from 1st to n-th like: median 0.02
+shared decade                      n=8  unanimous 102/588 = 17.3% (1990s 97, 2000s 2) | with >=20 later likes: 39; refuted 34/39 = 87.2%; later likes a filter would block: mean 20.7%, median 6.5%; first refuting like: median #14 | on later days only (>=5 likes): refuted 9/12 | hours from 1st to n-th like: median 0.04
+shared decade                      n=12 unanimous 82/563 = 14.6% (1990s 81, 1960s 1) | with >=20 later likes: 29; refuted 25/29 = 86.2%; later likes a filter would block: mean 16.3%, median 4.3%; first refuting like: median #15 | on later days only (>=5 likes): refuted 7/10 | hours from 1st to n-th like: median 0.06
+shared genre                       n=5  unanimous 83/603 = 13.8% (Drama 32, Action 19) | with >=20 later likes: 55; refuted 55/55 = 100.0%; later likes a filter would block: mean 47.1%, median 49.5%; first refuting like: median #2 | on later days only (>=5 likes): refuted 28/29 | hours from 1st to n-th like: median 0.02
+shared genre                       n=8  unanimous 18/588 = 3.1% (Comedy 6, Drama 6) | with >=20 later likes: 14; refuted 14/14 = 100.0%; later likes a filter would block: mean 44.6%, median 51.2%; first refuting like: median #3 | on later days only (>=5 likes): refuted 5/6 | hours from 1st to n-th like: median 0.09
+shared genre                       n=12 unanimous 8/563 = 1.4% (Comedy 4, Drama 2) | with >=20 later likes: 6; refuted 6/6 = 100.0%; later likes a filter would block: mean 56.9%, median 63.9%; first refuting like: median #4 | on later days only (>=5 likes): refuted 2/2 | hours from 1st to n-th like: median 0.14
+
+B. The paper's pair: users whose first n liked films are all English-language; rule = shared country;
+   the future counts only later liked English-language films (so a refutation violates the country rule alone)
+country | all-English history      n=5  unanimous 457/532 = 85.9% (United States 457) | with >=20 later likes: 295; refuted 236/295 = 80.0%; later likes a filter would block: mean 4.7%, median 3.9%; first refuting like: median #18 | on later days only (>=5 likes): refuted 95/127 | hours from 1st to n-th like: median 0.03
+country | all-English history      n=8  unanimous 384/464 = 82.8% (United States 384) | with >=20 later likes: 233; refuted 195/233 = 83.7%; later likes a filter would block: mean 4.9%, median 4.0%; first refuting like: median #16 | on later days only (>=5 likes): refuted 77/106 | hours from 1st to n-th like: median 0.05
+country | all-English history      n=12 unanimous 305/393 = 77.6% (United States 305) | with >=20 later likes: 174; refuted 146/174 = 83.9%; later likes a filter would block: mean 4.7%, median 4.0%; first refuting like: median #16 | on later days only (>=5 likes): refuted 59/82 | hours from 1st to n-th like: median 0.09
+
+C. Expected under catalog composition alone: p^n with p = share among liked ratings
+  country = United States: p = 0.882; p^5 = 53.3%, p^8 = 36.5%, p^12 = 22.1%
+  language = English: p = 0.938; p^5 = 72.7%, p^8 = 60.1%, p^12 = 46.6%
+  United States among liked English-language ratings: p = 0.936; p^5 = 71.9%, p^8 = 59.0%, p^12 = 45.3%
