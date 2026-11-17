@@ -1,0 +1,60 @@
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-000"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-000"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-000"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-001"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-001"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-001"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-002"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-002"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-002"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-003"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-003"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-003"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-004"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-004"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-004"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish only"}], "true_committed": false, "user_id": "llm-spa-005"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-spa-005"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish only"}], "true_committed": false, "user_id": "llm-spa-005"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-006"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-006"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-006"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish (book's languages must include Spanish; e.g., a Spanish-country book in Catalan was rejected, while Spanish-language books from Spain, Ecuador, Peru, and Mexico were all accepted)"}], "true_committed": false, "user_id": "llm-spa-007"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-spa-007"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish (book's languages must include Spanish; e.g., a Spanish-country book in Catalan was rejected, while Spanish-language books from Spain, Ecuador, Peru, and Mexico were all accepted)"}], "true_committed": false, "user_id": "llm-spa-007"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-008"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-008"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-008"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-009"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-009"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-009"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-010"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-010"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-010"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-011"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-011"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-011"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-012"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-012"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-012"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-013"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-013"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-013"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-014"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-014"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-014"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "countries", "value": "Spain (every accepted book lists Spain; no accepted book lacks it)"}, {"field": "languages", "value": "Spanish only (must include Spanish; non-Spanish languages such as English, Dutch, French, and even Galician from a Spanish-language context are consistently rejected across all genres and periods)"}], "true_committed": false, "user_id": "llm-spa-015"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-spa-015"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish only (must include Spanish; non-Spanish languages such as English, Dutch, French, and even Galician from a Spanish-language context are consistently rejected across all genres and periods)"}], "true_committed": false, "user_id": "llm-spa-015"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish only (exclude all other languages, including English and Galician)"}], "true_committed": false, "user_id": "llm-spa-016"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-spa-016"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish only (exclude all other languages, including English and Galician)"}], "true_committed": false, "user_id": "llm-spa-016"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-017"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-017"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-017"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish (must be included in the book's languages)"}], "true_committed": false, "user_id": "llm-spa-018"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-spa-018"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish (must be included in the book's languages)"}], "true_committed": false, "user_id": "llm-spa-018"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-019"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-019"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-019"}

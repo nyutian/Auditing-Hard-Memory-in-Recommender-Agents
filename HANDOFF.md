@@ -3,13 +3,20 @@
 写于 2026-11-15 晚。读者是接手这个项目的人或另一个会话，假设没有任何上下文。
 文中的数字都能在 `results/` 或 `dev/check_outputs/` 里找到出处。
 
+> **2026-11-16 branch update.** The paper-matched implementation that produced
+> the submitted manuscript's numbers is now preserved separately under
+> `dev/paper_reproduction/`, with frozen parsed states and summaries under
+> `results/paper_reproduction/`. The notebook and the historical notes below
+> remain an expanded reimplementation; its changed design and numbers must not
+> be mixed with the paper-matched result namespace.
+
 ## 0. 一分钟版本
 
 - **论文：** *When Catalogs Become Preferences: Auditing Hard Memory in Recommender Agents*，现有 v5 草稿，投 WSDM 2027 短文。
 - **截稿：** 2026-11-17 AoE。正文最多 4 页（含图表和附录，不含参考文献和伦理声明）。PDF 必须匿名，用 `[sigconf,anonymous,review]`。
 - **现状：** 实验已从头重写成一个 notebook 并跑通。不需要模型的部分都有结果。需要模型的部分一次都没跑，因为机器上没有 API 密钥。
 - **已知缺陷：** 模拟器会重复推荐同一本书，而且构造的目录太薄。部分数字是暂定的（第 4 节）。必须先修它再调用模型，否则模型调用要重做。
-- **原始代码找不到：** 这是重新实现，所有数字都替换 v5 稿子里的数字，不会与之吻合。
+- **两套实现不要混用：** notebook 是重新实现，数字不会与 v5 稿子吻合；论文一致版代码与冻结结果见 `dev/paper_reproduction/` 和 `results/paper_reproduction/`。
 - **下一步：** 第 7 节按顺序列出。
 
 ## 1. 论文要说什么

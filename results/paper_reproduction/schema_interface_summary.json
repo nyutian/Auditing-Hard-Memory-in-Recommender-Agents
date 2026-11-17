@@ -1,0 +1,236 @@
+{
+  "models": {
+    "GLM-5.3-Flash": {
+      "conditions": {
+        "calibrated_established": {
+          "proxy_rate_wilson95": {
+            "hi": 0.0866443298557801,
+            "lo": 0.006882893202970648,
+            "mean": 0.025
+          },
+          "proxy_users": 2,
+          "users": 80
+        },
+        "calibrated_mentioned": {
+          "proxy_rate_wilson95": {
+            "hi": 0.8526679265915337,
+            "lo": 0.6721321021639265,
+            "mean": 0.775
+          },
+          "proxy_users": 62,
+          "users": 80
+        },
+        "calibrated_plausible": {
+          "proxy_rate_wilson95": {
+            "hi": 0.8319376814245761,
+            "lo": 0.6451532538076602,
+            "mean": 0.75
+          },
+          "proxy_users": 60,
+          "users": 80
+        },
+        "hard_schema_committed": {
+          "proxy_rate_wilson95": {
+            "hi": 0.4206777574468744,
+            "lo": 0.2215040411289482,
+            "mean": 0.3125
+          },
+          "proxy_users": 25,
+          "users": 80
+        }
+      },
+      "other_established_rules": 0,
+      "other_plausible_rules": 26,
+      "strata": {
+        "ambiguous": {
+          "calibrated_established": {
+            "proxy_rate_wilson95": {
+              "hi": 0.08458525459438397,
+              "lo": 0.002807494213869277,
+              "mean": 0.015873015873015872
+            },
+            "proxy_users": 1
+          },
+          "calibrated_mentioned": {
+            "proxy_rate_wilson95": {
+              "hi": 0.9912504724384196,
+              "lo": 0.8914352295339257,
+              "mean": 0.9682539682539683
+            },
+            "proxy_users": 61
+          },
+          "calibrated_plausible": {
+            "proxy_rate_wilson95": {
+              "hi": 0.9836738311320045,
+              "lo": 0.8690903216209392,
+              "mean": 0.9523809523809523
+            },
+            "proxy_users": 60
+          },
+          "hard_schema_committed": {
+            "proxy_rate_wilson95": {
+              "hi": 0.5044136961976913,
+              "lo": 0.2711746846567971,
+              "mean": 0.38095238095238093
+            },
+            "proxy_users": 24
+          },
+          "users": 63
+        },
+        "identifiable": {
+          "calibrated_established": {
+            "proxy_rate_wilson95": {
+              "hi": 0.26982030637575405,
+              "lo": 0.010460400984997592,
+              "mean": 0.058823529411764705
+            },
+            "proxy_users": 1
+          },
+          "calibrated_mentioned": {
+            "proxy_rate_wilson95": {
+              "hi": 0.26982030637575405,
+              "lo": 0.010460400984997592,
+              "mean": 0.058823529411764705
+            },
+            "proxy_users": 1
+          },
+          "calibrated_plausible": {
+            "proxy_rate_wilson95": {
+              "hi": 0.1843181350088518,
+              "lo": 0.0,
+              "mean": 0.0
+            },
+            "proxy_users": 0
+          },
+          "hard_schema_committed": {
+            "proxy_rate_wilson95": {
+              "hi": 0.26982030637575405,
+              "lo": 0.010460400984997592,
+              "mean": 0.058823529411764705
+            },
+            "proxy_users": 1
+          },
+          "users": 17
+        }
+      },
+      "true_established_rate": 0.2375,
+      "true_plausible_rate": 0.7625
+    },
+    "GPT-OSS-120B": {
+      "conditions": {
+        "calibrated_established": {
+          "proxy_rate_wilson95": {
+            "hi": 0.13810148767274424,
+            "lo": 0.026989375670841982,
+            "mean": 0.0625
+          },
+          "proxy_users": 5,
+          "users": 80
+        },
+        "calibrated_mentioned": {
+          "proxy_rate_wilson95": {
+            "hi": 0.8628761328230384,
+            "lo": 0.6857784426940333,
+            "mean": 0.7875
+          },
+          "proxy_users": 63,
+          "users": 80
+        },
+        "calibrated_plausible": {
+          "proxy_rate_wilson95": {
+            "hi": 0.810822428119158,
+            "lo": 0.6185594135898548,
+            "mean": 0.725
+          },
+          "proxy_users": 58,
+          "users": 80
+        },
+        "hard_schema_committed": {
+          "proxy_rate_wilson95": {
+            "hi": 0.8423532713322537,
+            "lo": 0.6585922106615945,
+            "mean": 0.7625
+          },
+          "proxy_users": 61,
+          "users": 80
+        }
+      },
+      "other_established_rules": 0,
+      "other_plausible_rules": 16,
+      "strata": {
+        "ambiguous": {
+          "calibrated_established": {
+            "proxy_rate_wilson95": {
+              "hi": 0.17270309850904084,
+              "lo": 0.03437584717681855,
+              "mean": 0.07936507936507936
+            },
+            "proxy_users": 5
+          },
+          "calibrated_mentioned": {
+            "proxy_rate_wilson95": {
+              "hi": 0.9836738311320045,
+              "lo": 0.8690903216209392,
+              "mean": 0.9523809523809523
+            },
+            "proxy_users": 60
+          },
+          "calibrated_plausible": {
+            "proxy_rate_wilson95": {
+              "hi": 0.9342267514386327,
+              "lo": 0.7689296552173035,
+              "mean": 0.873015873015873
+            },
+            "proxy_users": 55
+          },
+          "hard_schema_committed": {
+            "proxy_rate_wilson95": {
+              "hi": 0.9836738311320045,
+              "lo": 0.8690903216209392,
+              "mean": 0.9523809523809523
+            },
+            "proxy_users": 60
+          },
+          "users": 63
+        },
+        "identifiable": {
+          "calibrated_established": {
+            "proxy_rate_wilson95": {
+              "hi": 0.1843181350088518,
+              "lo": 0.0,
+              "mean": 0.0
+            },
+            "proxy_users": 0
+          },
+          "calibrated_mentioned": {
+            "proxy_rate_wilson95": {
+              "hi": 0.41029458568834126,
+              "lo": 0.06191126637620997,
+              "mean": 0.17647058823529413
+            },
+            "proxy_users": 3
+          },
+          "calibrated_plausible": {
+            "proxy_rate_wilson95": {
+              "hi": 0.41029458568834126,
+              "lo": 0.06191126637620997,
+              "mean": 0.17647058823529413
+            },
+            "proxy_users": 3
+          },
+          "hard_schema_committed": {
+            "proxy_rate_wilson95": {
+              "hi": 0.26982030637575405,
+              "lo": 0.010460400984997592,
+              "mean": 0.058823529411764705
+            },
+            "proxy_users": 1
+          },
+          "users": 17
+        }
+      },
+      "true_established_rate": 0.2375,
+      "true_plausible_rate": 0.7625
+    }
+  }
+}

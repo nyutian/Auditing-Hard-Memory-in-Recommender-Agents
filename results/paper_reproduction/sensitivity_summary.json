@@ -1,0 +1,150 @@
+{
+  "model": "zai-org/GLM-5.3-Flash",
+  "occurrence": {
+    "count_gated": {
+      "proxy_commit_rate": 0.3,
+      "true_commit_rate": 0.8375,
+      "users": 80
+    },
+    "judge_gated": {
+      "proxy_commit_rate": 0.2375,
+      "true_commit_rate": 0.775,
+      "users": 80
+    },
+    "plain_notes": {
+      "proxy_commit_rate": 0.3125,
+      "true_commit_rate": 0.85,
+      "users": 80
+    }
+  },
+  "pair_occurrence": {
+    "count_gated": {
+      "French/France": 0.25,
+      "German/Germany": 0.4,
+      "Russian/Russia": 0.45,
+      "Spanish/Spain": 0.1
+    },
+    "judge_gated": {
+      "French/France": 0.1,
+      "German/Germany": 0.4,
+      "Russian/Russia": 0.4,
+      "Spanish/Spain": 0.05
+    },
+    "plain_notes": {
+      "French/France": 0.25,
+      "German/Germany": 0.4,
+      "Russian/Russia": 0.45,
+      "Spanish/Spain": 0.15
+    }
+  },
+  "paired_removal": {
+    "count_gated": {
+      "c0": {
+        "difference": 0.0,
+        "difference_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "full_success": 1.0,
+        "proxy_only_utility": 0.5677083333333334,
+        "proxy_only_utility_ci": {
+          "hi": 0.6171875,
+          "lo": 0.5182291666666666,
+          "mean": 0.5677083333333334
+        },
+        "proxy_users": 24,
+        "removed_success": 1.0
+      },
+      "shift": {
+        "difference": -0.6432291666666666,
+        "difference_ci": {
+          "hi": -0.5833333333333334,
+          "lo": -0.7057291666666666,
+          "mean": -0.6432291666666666
+        },
+        "full_success": 0.3567708333333333,
+        "proxy_only_utility": -0.0859375,
+        "proxy_only_utility_ci": {
+          "hi": -0.015625,
+          "lo": -0.15625,
+          "mean": -0.0859375
+        },
+        "proxy_users": 24,
+        "removed_success": 1.0
+      }
+    },
+    "judge_gated": {
+      "c0": {
+        "difference": 0.0,
+        "difference_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "full_success": 1.0,
+        "proxy_only_utility": 0.5888157894736842,
+        "proxy_only_utility_ci": {
+          "hi": 0.6414473684210527,
+          "lo": 0.5361842105263158,
+          "mean": 0.5888157894736842
+        },
+        "proxy_users": 19,
+        "removed_success": 1.0
+      },
+      "shift": {
+        "difference": -0.6611842105263158,
+        "difference_ci": {
+          "hi": -0.5921052631578947,
+          "lo": -0.7335526315789473,
+          "mean": -0.6611842105263158
+        },
+        "full_success": 0.33881578947368424,
+        "proxy_only_utility": -0.06578947368421052,
+        "proxy_only_utility_ci": {
+          "hi": 0.009868421052631578,
+          "lo": -0.14144736842105263,
+          "mean": -0.06578947368421052
+        },
+        "proxy_users": 19,
+        "removed_success": 1.0
+      }
+    },
+    "plain_notes": {
+      "c0": {
+        "difference": 0.0,
+        "difference_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "full_success": 1.0,
+        "proxy_only_utility": 0.56,
+        "proxy_only_utility_ci": {
+          "hi": 0.6125,
+          "lo": 0.5125,
+          "mean": 0.56
+        },
+        "proxy_users": 25,
+        "removed_success": 1.0
+      },
+      "shift": {
+        "difference": -0.645,
+        "difference_ci": {
+          "hi": -0.5875,
+          "lo": -0.7025,
+          "mean": -0.645
+        },
+        "full_success": 0.355,
+        "proxy_only_utility": -0.0875,
+        "proxy_only_utility_ci": {
+          "hi": -0.02,
+          "lo": -0.155,
+          "mean": -0.0875
+        },
+        "proxy_users": 25,
+        "removed_success": 1.0
+      }
+    }
+  }
+}

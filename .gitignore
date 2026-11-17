@@ -1,8 +1,11 @@
 .env
 .venv/
+.pytest_cache/
 __pycache__/
+*.pyc
 .ipynb_checkpoints/
 .DS_Store
 
 # The catalog is downloaded and hash-checked by the notebook on first run
 data/
+dev/paper_reproduction/outputs/

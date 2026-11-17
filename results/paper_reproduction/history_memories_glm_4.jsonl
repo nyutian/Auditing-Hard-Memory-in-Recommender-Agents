@@ -1,0 +1,240 @@
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-000"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-000"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-000"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-001"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-spa-001"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-spa-001"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-002"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-002"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-002"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-003"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-003"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-003"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-004"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-004"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-004"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-005"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-005"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-005"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "countries", "value": "Argentina or Spain only (all accepted books are from these countries; no book from Argentina or Spain was ever rejected)"}, {"field": "languages", "value": "Spanish only (all accepted books are Spanish-language; no Spanish-language book was ever rejected)"}], "true_committed": false, "user_id": "llm-spa-006"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-spa-006"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "countries", "value": "Argentina or Spain only (all accepted books are from these countries; no book from Argentina or Spain was ever rejected)"}, {"field": "languages", "value": "Spanish only (all accepted books are Spanish-language; no Spanish-language book was ever rejected)"}], "true_committed": false, "user_id": "llm-spa-006"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-007"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-spa-007"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-spa-007"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-008"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-008"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-008"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "countries", "value": "Ecuador or Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-009"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-009"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "countries", "value": "Ecuador or Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-009"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-010"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-spa-010"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-spa-010"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-011"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-011"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-011"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-012"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-012"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-012"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-013"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-013"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-013"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-014"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-014"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-014"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-015"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-015"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-015"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-016"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-016"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": true, "rules": [{"field": "countries", "value": "Spain"}, {"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-016"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-017"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-017"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-017"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-018"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-018"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish"}], "true_committed": true, "user_id": "llm-spa-018"}
+{"method": "plain_notes", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish only"}], "true_committed": false, "user_id": "llm-spa-019"}
+{"method": "count_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-spa-019"}
+{"method": "judge_gated", "pair": "Spanish/Spain", "proxy_committed": false, "rules": [{"field": "languages", "value": "Spanish only"}], "true_committed": false, "user_id": "llm-spa-019"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-000"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-000"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-000"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-001"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-001"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-001"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-002"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-002"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-002"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-003"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-003"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-003"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-004"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-004"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-004"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-005"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-005"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-005"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-006"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-006"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-006"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-007"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-007"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-007"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-008"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-008"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-008"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-009"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-009"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-009"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-010"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-010"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-010"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-011"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-011"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-011"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-012"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-012"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-012"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-013"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-013"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-fre-013"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-014"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-014"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-014"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-015"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-015"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-015"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-016"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-016"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-016"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-017"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-017"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-017"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-018"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-018"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": true, "rules": [{"field": "countries", "value": "France"}, {"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-018"}
+{"method": "plain_notes", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-019"}
+{"method": "count_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-019"}
+{"method": "judge_gated", "pair": "French/France", "proxy_committed": false, "rules": [{"field": "languages", "value": "French"}], "true_committed": true, "user_id": "llm-fre-019"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-000"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-000"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-000"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-001"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-001"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-001"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-002"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-002"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-002"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "countries", "value": "Russia / Russian Empire only (require Russian-origin works; all non-Russian countries rejected)"}, {"field": "languages", "value": "Russian only (require Russian-language works; every accepted book is Russian, every proposed non-Russian book was rejected)"}], "true_committed": false, "user_id": "llm-rus-003"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-rus-003"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-rus-003"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-004"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-004"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-004"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-005"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-005"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-005"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "countries", "value": "Russia, Russian Empire"}, {"field": "languages", "value": "French, Russian"}], "true_committed": false, "user_id": "llm-rus-006"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-rus-006"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-rus-006"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-007"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-007"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-007"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-008"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-008"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-008"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-009"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-009"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-009"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": true, "rules": [{"field": "countries", "value": "Russia"}, {"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-010"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": true, "rules": [{"field": "countries", "value": "Russia"}, {"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-010"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": true, "rules": [{"field": "countries", "value": "Russia"}, {"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-010"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": true, "rules": [{"field": "countries", "value": "Russia"}, {"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-011"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-rus-011"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-rus-011"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-012"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-012"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-012"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-013"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-013"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-013"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-014"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-014"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-014"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-015"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-rus-015"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-rus-015"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-016"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-016"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-016"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-017"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-017"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-017"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-018"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-018"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-018"}
+{"method": "plain_notes", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-019"}
+{"method": "count_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-019"}
+{"method": "judge_gated", "pair": "Russian/Russia", "proxy_committed": false, "rules": [{"field": "languages", "value": "Russian"}], "true_committed": true, "user_id": "llm-rus-019"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": true, "rules": [{"field": "countries", "value": "Germany"}, {"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-000"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": true, "rules": [{"field": "countries", "value": "Germany"}, {"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-000"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-ger-000"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": true, "rules": [{"field": "countries", "value": "Germany"}, {"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-001"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": true, "rules": [{"field": "countries", "value": "Germany"}, {"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-001"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": true, "rules": [{"field": "countries", "value": "Germany"}, {"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-001"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-002"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-002"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-002"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-003"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-003"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-003"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-004"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-004"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-004"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-005"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-ger-005"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-ger-005"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German only (reject books not in German)"}], "true_committed": false, "user_id": "llm-ger-006"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-ger-006"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German only (reject books not in German)"}], "true_committed": false, "user_id": "llm-ger-006"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-007"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-007"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-007"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-008"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-008"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-008"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-009"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-009"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-009"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-010"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-010"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-010"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-011"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-011"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-011"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": true, "rules": [{"field": "countries", "value": "Germany"}, {"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-012"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": true, "rules": [{"field": "countries", "value": "Germany"}, {"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-012"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-ger-012"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-013"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-013"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-013"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-014"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-014"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-014"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-015"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-015"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-015"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-016"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-016"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-016"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": true, "rules": [{"field": "countries", "value": "Germany"}, {"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-017"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": true, "rules": [{"field": "countries", "value": "Germany"}, {"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-017"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [], "true_committed": false, "user_id": "llm-ger-017"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": true, "rules": [{"field": "countries", "value": "Germany"}, {"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-018"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": true, "rules": [{"field": "countries", "value": "Germany"}, {"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-018"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": true, "rules": [{"field": "countries", "value": "Germany"}, {"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-018"}
+{"method": "plain_notes", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-019"}
+{"method": "count_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-019"}
+{"method": "judge_gated", "pair": "German/Germany", "proxy_committed": false, "rules": [{"field": "languages", "value": "German"}], "true_committed": true, "user_id": "llm-ger-019"}

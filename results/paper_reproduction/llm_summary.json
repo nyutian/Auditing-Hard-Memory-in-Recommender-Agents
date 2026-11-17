@@ -1,0 +1,259 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "occurrence": {
+    "count_gated": {
+      "proxy_commit_rate": 0.7375,
+      "true_commit_rate": 0.9875,
+      "users": 80
+    },
+    "judge_gated": {
+      "proxy_commit_rate": 0.7125,
+      "true_commit_rate": 0.9625,
+      "users": 80
+    },
+    "plain_notes": {
+      "proxy_commit_rate": 0.7625,
+      "true_commit_rate": 1.0,
+      "users": 80
+    }
+  },
+  "paired_removal": {
+    "count_gated": {
+      "c0": {
+        "difference": 0.0,
+        "difference_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "full_success": 1.0,
+        "no_memory_success": 0.4766949152542373,
+        "proxy_only_success": 1.0,
+        "proxy_only_utility": 0.5233050847457628,
+        "proxy_only_utility_ci": {
+          "hi": 0.5614406779661016,
+          "lo": 0.48514300847457625,
+          "mean": 0.5233050847457628
+        },
+        "proxy_users": 59,
+        "removed_success": 1.0
+      },
+      "shift": {
+        "difference": -0.6578389830508474,
+        "difference_ci": {
+          "hi": -0.6207627118644068,
+          "lo": -0.6949152542372882,
+          "mean": -0.6578389830508474
+        },
+        "full_success": 0.3421610169491525,
+        "no_memory_success": 0.4904661016949153,
+        "proxy_only_success": 0.3421610169491525,
+        "proxy_only_utility": -0.1483050847457627,
+        "proxy_only_utility_ci": {
+          "hi": -0.09851694915254237,
+          "lo": -0.19703389830508475,
+          "mean": -0.1483050847457627
+        },
+        "proxy_users": 59,
+        "removed_success": 1.0
+      }
+    },
+    "judge_gated": {
+      "c0": {
+        "difference": 0.0,
+        "difference_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "full_success": 1.0,
+        "no_memory_success": 0.4758771929824561,
+        "proxy_only_success": 1.0,
+        "proxy_only_utility": 0.5241228070175439,
+        "proxy_only_utility_ci": {
+          "hi": 0.5635964912280702,
+          "lo": 0.48464912280701755,
+          "mean": 0.5241228070175439
+        },
+        "proxy_users": 57,
+        "removed_success": 1.0
+      },
+      "shift": {
+        "difference": -0.6546052631578947,
+        "difference_ci": {
+          "hi": -0.6151315789473685,
+          "lo": -0.6929824561403509,
+          "mean": -0.6546052631578947
+        },
+        "full_success": 0.34539473684210525,
+        "no_memory_success": 0.4934210526315789,
+        "proxy_only_success": 0.34539473684210525,
+        "proxy_only_utility": -0.14802631578947367,
+        "proxy_only_utility_ci": {
+          "hi": -0.09978070175438597,
+          "lo": -0.19956140350877194,
+          "mean": -0.14802631578947367
+        },
+        "proxy_users": 57,
+        "removed_success": 1.0
+      }
+    },
+    "plain_notes": {
+      "c0": {
+        "difference": 0.0,
+        "difference_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "full_success": 0.985655737704918,
+        "no_memory_success": 0.4733606557377049,
+        "proxy_only_success": 1.0,
+        "proxy_only_utility": 0.5266393442622951,
+        "proxy_only_utility_ci": {
+          "hi": 0.5645491803278688,
+          "lo": 0.48770491803278687,
+          "mean": 0.5266393442622951
+        },
+        "proxy_users": 61,
+        "removed_success": 0.985655737704918
+      },
+      "shift": {
+        "difference": -0.6465163934426229,
+        "difference_ci": {
+          "hi": -0.6034836065573771,
+          "lo": -0.6885245901639344,
+          "mean": -0.6465163934426229
+        },
+        "full_success": 0.33811475409836067,
+        "no_memory_success": 0.48770491803278687,
+        "proxy_only_success": 0.3422131147540984,
+        "proxy_only_utility": -0.14549180327868852,
+        "proxy_only_utility_ci": {
+          "hi": -0.09836065573770492,
+          "lo": -0.19262295081967212,
+          "mean": -0.14549180327868852
+        },
+        "proxy_users": 61,
+        "removed_success": 0.9846311475409836
+      }
+    }
+  },
+  "summary": {
+    "count_gated": {
+      "c0": {
+        "established_recall": 0.9875,
+        "excluded_share": 0.07374999999999998,
+        "multiple_rejects_per_user": 0.0,
+        "proposals_per_user": {
+          "hi": 17.575,
+          "lo": 16.0,
+          "mean": 16.525
+        },
+        "single_rejects_per_user": 0.0,
+        "success": {
+          "hi": 1.0,
+          "lo": 0.97890625,
+          "mean": 0.99296875
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 0.0
+      },
+      "shift": {
+        "established_recall": 0.9875,
+        "excluded_share": 0.6637500000000001,
+        "multiple_rejects_per_user": 0.0,
+        "proposals_per_user": {
+          "hi": 10.450312499999995,
+          "lo": 7.2875,
+          "mean": 8.725
+        },
+        "single_rejects_per_user": 0.0,
+        "success": {
+          "hi": 0.5773632812499998,
+          "lo": 0.4421875,
+          "mean": 0.50859375
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 0.0
+      }
+    },
+    "judge_gated": {
+      "c0": {
+        "established_recall": 0.9625,
+        "excluded_share": 0.07125,
+        "multiple_rejects_per_user": 0.0,
+        "proposals_per_user": {
+          "hi": 19.8125,
+          "lo": 16.0,
+          "mean": 17.675
+        },
+        "single_rejects_per_user": 0.0,
+        "success": {
+          "hi": 1.0,
+          "lo": 0.95703125,
+          "mean": 0.98046875
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 0.0
+      },
+      "shift": {
+        "established_recall": 0.9625,
+        "excluded_share": 0.6412500000000001,
+        "multiple_rejects_per_user": 0.0,
+        "proposals_per_user": {
+          "hi": 12.9,
+          "lo": 8.025,
+          "mean": 10.1625
+        },
+        "single_rejects_per_user": 0.0,
+        "success": {
+          "hi": 0.58203125,
+          "lo": 0.446875,
+          "mean": 0.5140625
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 0.0
+      }
+    },
+    "plain_notes": {
+      "c0": {
+        "established_recall": 1.0,
+        "excluded_share": 0.086875,
+        "multiple_rejects_per_user": 0.0,
+        "proposals_per_user": {
+          "hi": 16.0,
+          "lo": 15.475,
+          "mean": 15.825
+        },
+        "single_rejects_per_user": 0.0,
+        "success": {
+          "hi": 1.0,
+          "lo": 0.9671875,
+          "mean": 0.9890625
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 0.0
+      },
+      "shift": {
+        "established_recall": 1.0,
+        "excluded_share": 0.6871875000000001,
+        "multiple_rejects_per_user": 0.0,
+        "proposals_per_user": {
+          "hi": 9.0375,
+          "lo": 6.875,
+          "mean": 7.925
+        },
+        "single_rejects_per_user": 0.0,
+        "success": {
+          "hi": 0.56328125,
+          "lo": 0.428125,
+          "mean": 0.4953125
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 0.0
+      }
+    }
+  },
+  "temperature": 0.1
+}
