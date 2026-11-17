@@ -1,0 +1,794 @@
+{
+  "catalogs": [
+    {
+      "learning_proxy_coverage": 0.9,
+      "pair": "Spanish/Spain",
+      "shifted_proxy_coverage": 0.1,
+      "size": 1200,
+      "target_count_each": 90,
+      "valid_requests": 25
+    },
+    {
+      "learning_proxy_coverage": 0.9,
+      "pair": "French/France",
+      "shifted_proxy_coverage": 0.1,
+      "size": 1200,
+      "target_count_each": 80,
+      "valid_requests": 18
+    },
+    {
+      "learning_proxy_coverage": 0.9,
+      "pair": "Russian/Russia",
+      "shifted_proxy_coverage": 0.1,
+      "size": 1200,
+      "target_count_each": 50,
+      "valid_requests": 10
+    },
+    {
+      "learning_proxy_coverage": 0.9,
+      "pair": "German/Germany",
+      "shifted_proxy_coverage": 0.1,
+      "size": 1200,
+      "target_count_each": 40,
+      "valid_requests": 13
+    }
+  ],
+  "config": {
+    "bootstrap_replicates": 5000,
+    "catalog_size": 1200,
+    "continuation_visits": 16,
+    "learning_visits": 8,
+    "llm_model": "openai/gpt-oss-120b",
+    "llm_temperature": 0.1,
+    "llm_users_per_pair": 20,
+    "pairs": [
+      {
+        "country": "Spain",
+        "language": "Spanish",
+        "target_count": 90
+      },
+      {
+        "country": "France",
+        "language": "French",
+        "target_count": 80
+      },
+      {
+        "country": "Russia",
+        "language": "Russian",
+        "target_count": 50
+      },
+      {
+        "country": "Germany",
+        "language": "German",
+        "target_count": 40
+      }
+    ],
+    "proposal_budget": 5,
+    "seed": 20261114,
+    "users_per_pair": 80
+  },
+  "source_catalog": "tau-rec/books-wikidata-v2/catalog.json",
+  "source_catalog_sha256": "19e9fa3a4db03de8f8bb8cdd8f7b231346a44f21cefca18947b7b10485d7093f",
+  "summary": {
+    "clarify_once": {
+      "c0": {
+        "established_recall": 1.0,
+        "excluded_share": 0.0,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 16.0,
+          "lo": 16.0,
+          "mean": 16.0
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "single_rejects_per_user": 0.0,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "success": {
+          "hi": 1.0,
+          "lo": 1.0,
+          "mean": 1.0
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 1.0
+      },
+      "learning": {
+        "proposals_per_user": {
+          "hi": 8.0,
+          "lo": 8.0,
+          "mean": 8.0
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        }
+      },
+      "shift": {
+        "established_recall": 1.0,
+        "excluded_share": 0.0,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 16.0,
+          "lo": 16.0,
+          "mean": 16.0
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "single_rejects_per_user": 0.0,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "success": {
+          "hi": 1.0,
+          "lo": 1.0,
+          "mean": 1.0
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 1.0
+      }
+    },
+    "eager": {
+      "c0": {
+        "established_recall": 1.0,
+        "excluded_share": 0.0,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 16.44375,
+          "lo": 16.040625,
+          "mean": 16.19375
+        },
+        "rejections_per_user": {
+          "hi": 0.5125,
+          "lo": 0.0375,
+          "mean": 0.215625
+        },
+        "single_rejects_per_user": 0.040625,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0625,
+          "lo": 0.021875,
+          "mean": 0.040625
+        },
+        "success": {
+          "hi": 1.0,
+          "lo": 0.9962841796875,
+          "mean": 0.9986328125
+        },
+        "unresolved": 0.003125,
+        "whole_tie_available": 1.0
+      },
+      "learning": {
+        "proposals_per_user": {
+          "hi": 14.940625,
+          "lo": 13.537421875,
+          "mean": 14.228125
+        },
+        "rejections_per_user": {
+          "hi": 8.03125,
+          "lo": 6.384375,
+          "mean": 7.19375
+        }
+      },
+      "shift": {
+        "established_recall": 1.0,
+        "excluded_share": 0.0,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 16.0625,
+          "lo": 16.021875,
+          "mean": 16.040625
+        },
+        "rejections_per_user": {
+          "hi": 0.0625,
+          "lo": 0.01875,
+          "mean": 0.040625
+        },
+        "single_rejects_per_user": 0.040625,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0625,
+          "lo": 0.01875,
+          "mean": 0.040625
+        },
+        "success": {
+          "hi": 1.0,
+          "lo": 1.0,
+          "mean": 1.0
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 0.9908203125
+      }
+    },
+    "hard_filter": {
+      "c0": {
+        "established_recall": 1.0,
+        "excluded_share": 0.09999999999999998,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 16.0,
+          "lo": 16.0,
+          "mean": 16.0
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "single_rejects_per_user": 0.0,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "success": {
+          "hi": 1.0,
+          "lo": 1.0,
+          "mean": 1.0
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 1.0
+      },
+      "learning": {
+        "proposals_per_user": {
+          "hi": 8.0,
+          "lo": 8.0,
+          "mean": 8.0
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        }
+      },
+      "shift": {
+        "established_recall": 1.0,
+        "excluded_share": 0.9000000000000001,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 5.540625,
+          "lo": 5.04375,
+          "mean": 5.290625
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "single_rejects_per_user": 0.0,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "success": {
+          "hi": 0.34648925781249995,
+          "lo": 0.3146484375,
+          "mean": 0.3306640625
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 0.3306640625
+      }
+    },
+    "no_memory": {
+      "c0": {
+        "established_recall": 0.0,
+        "excluded_share": 0.0,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 60.6,
+          "lo": 58.628046874999995,
+          "mean": 59.61875
+        },
+        "rejections_per_user": {
+          "hi": 52.896875,
+          "lo": 50.36875,
+          "mean": 51.659375
+        },
+        "single_rejects_per_user": 0.0,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "success": {
+          "hi": 0.515625,
+          "lo": 0.480078125,
+          "mean": 0.4974609375
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 1.0
+      },
+      "learning": {
+        "proposals_per_user": {
+          "hi": 30.550078125,
+          "lo": 29.2625,
+          "mean": 29.903125
+        },
+        "rejections_per_user": {
+          "hi": 26.7375,
+          "lo": 25.171796875,
+          "mean": 25.959375
+        }
+      },
+      "shift": {
+        "established_recall": 0.0,
+        "excluded_share": 0.0,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 60.04375,
+          "lo": 58.259296875,
+          "mean": 59.15
+        },
+        "rejections_per_user": {
+          "hi": 52.3,
+          "lo": 50.028125,
+          "mean": 51.165625
+        },
+        "single_rejects_per_user": 0.0,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "success": {
+          "hi": 0.5154296875,
+          "lo": 0.4828076171875,
+          "mean": 0.4990234375
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 1.0
+      }
+    },
+    "passive": {
+      "c0": {
+        "established_recall": 0.71875,
+        "excluded_share": 0.0,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 36.787578125,
+          "lo": 32.171796875,
+          "mean": 34.465625
+        },
+        "rejections_per_user": {
+          "hi": 24.540625,
+          "lo": 19.07171875,
+          "mean": 21.8
+        },
+        "single_rejects_per_user": 0.0,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "success": {
+          "hi": 0.81953125,
+          "lo": 0.7626953125,
+          "mean": 0.7916015625
+        },
+        "unresolved": 0.6625,
+        "whole_tie_available": 1.0
+      },
+      "learning": {
+        "proposals_per_user": {
+          "hi": 26.6875,
+          "lo": 24.78125,
+          "mean": 25.746875
+        },
+        "rejections_per_user": {
+          "hi": 22.096875,
+          "lo": 19.796796875,
+          "mean": 20.93125
+        }
+      },
+      "shift": {
+        "established_recall": 1.0,
+        "excluded_share": 0.0,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 21.690625,
+          "lo": 20.01859375,
+          "mean": 20.81875
+        },
+        "rejections_per_user": {
+          "hi": 6.59375,
+          "lo": 4.599921875,
+          "mean": 5.590625
+        },
+        "single_rejects_per_user": 0.0,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "success": {
+          "hi": 0.9623046875,
+          "lo": 0.9400390625,
+          "mean": 0.9517578125
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 0.9197265625
+      }
+    },
+    "relax_delete": {
+      "c0": {
+        "established_recall": 1.0,
+        "excluded_share": 0.09999999999999998,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 16.0,
+          "lo": 16.0,
+          "mean": 16.0
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "single_rejects_per_user": 0.0,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "success": {
+          "hi": 1.0,
+          "lo": 1.0,
+          "mean": 1.0
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 1.0
+      },
+      "learning": {
+        "proposals_per_user": {
+          "hi": 8.0,
+          "lo": 8.0,
+          "mean": 8.0
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        }
+      },
+      "shift": {
+        "established_recall": 1.0,
+        "excluded_share": 0.0,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 16.071875,
+          "lo": 16.025,
+          "mean": 16.046875
+        },
+        "rejections_per_user": {
+          "hi": 0.071875,
+          "lo": 0.025,
+          "mean": 0.046875
+        },
+        "single_rejects_per_user": 0.046875,
+        "single_rejects_per_user_ci": {
+          "hi": 0.071875,
+          "lo": 0.025,
+          "mean": 0.046875
+        },
+        "success": {
+          "hi": 1.0,
+          "lo": 1.0,
+          "mean": 1.0
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 0.9375
+      }
+    },
+    "soft_rank": {
+      "c0": {
+        "established_recall": 1.0,
+        "excluded_share": 0.0,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 16.0,
+          "lo": 16.0,
+          "mean": 16.0
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "single_rejects_per_user": 0.0,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "success": {
+          "hi": 1.0,
+          "lo": 1.0,
+          "mean": 1.0
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 1.0
+      },
+      "learning": {
+        "proposals_per_user": {
+          "hi": 8.0,
+          "lo": 8.0,
+          "mean": 8.0
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        }
+      },
+      "shift": {
+        "established_recall": 1.0,
+        "excluded_share": 0.0,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 16.796875,
+          "lo": 16.5625,
+          "mean": 16.675
+        },
+        "rejections_per_user": {
+          "hi": 0.79375,
+          "lo": 0.5625,
+          "mean": 0.675
+        },
+        "single_rejects_per_user": 0.0,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "success": {
+          "hi": 1.0,
+          "lo": 1.0,
+          "mean": 1.0
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 0.3306640625
+      }
+    },
+    "tie": {
+      "c0": {
+        "established_recall": 0.0,
+        "excluded_share": 0.09999999999999998,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 16.0,
+          "lo": 16.0,
+          "mean": 16.0
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "single_rejects_per_user": 0.0,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "success": {
+          "hi": 1.0,
+          "lo": 1.0,
+          "mean": 1.0
+        },
+        "unresolved": 2.0,
+        "whole_tie_available": 1.0
+      },
+      "learning": {
+        "proposals_per_user": {
+          "hi": 8.0,
+          "lo": 8.0,
+          "mean": 8.0
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        }
+      },
+      "shift": {
+        "established_recall": 0.046875,
+        "excluded_share": 0.0,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 16.071875,
+          "lo": 16.025,
+          "mean": 16.046875
+        },
+        "rejections_per_user": {
+          "hi": 0.071875,
+          "lo": 0.025,
+          "mean": 0.046875
+        },
+        "single_rejects_per_user": 0.046875,
+        "single_rejects_per_user_ci": {
+          "hi": 0.071875,
+          "lo": 0.025,
+          "mean": 0.046875
+        },
+        "success": {
+          "hi": 1.0,
+          "lo": 1.0,
+          "mean": 1.0
+        },
+        "unresolved": 0.953125,
+        "whole_tie_available": 0.9375
+      }
+    },
+    "transient_relax": {
+      "c0": {
+        "established_recall": 1.0,
+        "excluded_share": 0.09999999999999998,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 16.0,
+          "lo": 16.0,
+          "mean": 16.0
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "single_rejects_per_user": 0.0,
+        "single_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "success": {
+          "hi": 1.0,
+          "lo": 1.0,
+          "mean": 1.0
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 1.0
+      },
+      "learning": {
+        "proposals_per_user": {
+          "hi": 8.0,
+          "lo": 8.0,
+          "mean": 8.0
+        },
+        "rejections_per_user": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        }
+      },
+      "shift": {
+        "established_recall": 1.0,
+        "excluded_share": 0.9000000000000001,
+        "multiple_rejects_per_user": 0.0,
+        "multiple_rejects_per_user_ci": {
+          "hi": 0.0,
+          "lo": 0.0,
+          "mean": 0.0
+        },
+        "proposals_per_user": {
+          "hi": 16.60625,
+          "lo": 16.415625,
+          "mean": 16.50625
+        },
+        "rejections_per_user": {
+          "hi": 0.6,
+          "lo": 0.4125,
+          "mean": 0.50625
+        },
+        "single_rejects_per_user": 0.50625,
+        "single_rejects_per_user_ci": {
+          "hi": 0.60625,
+          "lo": 0.4125,
+          "mean": 0.50625
+        },
+        "success": {
+          "hi": 1.0,
+          "lo": 1.0,
+          "mean": 1.0
+        },
+        "unresolved": 0.0,
+        "whole_tie_available": 0.3306640625
+      }
+    }
+  }
+}

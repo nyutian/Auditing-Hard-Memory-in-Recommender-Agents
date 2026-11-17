@@ -1,0 +1,18 @@
+{
+  "seed": 20261114,
+  "catalog_size": 1200,
+  "users_per_pair": 80,
+  "llm_users_per_pair": 20,
+  "learning_visits": 8,
+  "continuation_visits": 16,
+  "proposal_budget": 5,
+  "bootstrap_replicates": 5000,
+  "llm_model": "zai-org/GLM-5.3-Flash",
+  "llm_temperature": 0.1,
+  "pairs": [
+    {"language": "Spanish", "country": "Spain", "target_count": 90},
+    {"language": "French", "country": "France", "target_count": 80},
+    {"language": "Russian", "country": "Russia", "target_count": 50},
+    {"language": "German", "country": "Germany", "target_count": 40}
+  ]
+}
